@@ -1,0 +1,608 @@
+2026-10-06T10:00:02.175Z INFO gateway: health check ok
+2026-10-06T10:00:17.457Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:00:22.023Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:00:48.466Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:00:50.117Z INFO gateway: health check ok
+2026-10-06T10:01:08.135Z INFO gateway: health check ok
+2026-10-06T10:01:15.715Z INFO gateway: health check ok
+2026-10-06T10:01:22.077Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:01:29.095Z INFO gateway: health check ok
+2026-10-06T10:01:30.626Z INFO gateway: health check ok
+2026-10-06T10:01:31.054Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:01:40.316Z INFO gateway: health check ok
+2026-10-06T10:01:42.071Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:01:49.291Z INFO gateway: health check ok
+2026-10-06T10:01:51.197Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:01:55.414Z INFO gateway: health check ok
+2026-10-06T10:01:57.244Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:01:59.371Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:02:04.258Z INFO gateway: health check ok
+2026-10-06T10:02:05.586Z INFO gateway: health check ok
+2026-10-06T10:02:08.758Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:02:17.078Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:02:19.574Z WARN gateway: slow request 850ms
+2026-10-06T10:02:19.743Z INFO gateway: health check ok
+2026-10-06T10:02:22.517Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:02:27.752Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:02:28.788Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:02:35.893Z INFO gateway: health check ok
+2026-10-06T10:02:36.082Z INFO gateway: health check ok
+2026-10-06T10:02:38.999Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:02:41.707Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:02:48.080Z INFO gateway: health check ok
+2026-10-06T10:02:50.138Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:02:53.221Z INFO gateway: health check ok
+2026-10-06T10:02:54.963Z INFO gateway: health check ok
+2026-10-06T10:03:01.168Z INFO gateway: health check ok
+2026-10-06T10:03:25.325Z INFO gateway: health check ok
+2026-10-06T10:03:33.396Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:03:46.266Z INFO gateway: health check ok
+2026-10-06T10:03:49.524Z WARN gateway: slow request 850ms
+2026-10-06T10:03:53.286Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:03:56.295Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:03:59.841Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:04:11.479Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:04:11.614Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:04:12.138Z INFO gateway: health check ok
+2026-10-06T10:04:21.165Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:04:28.923Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:04:52.176Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:04:56.067Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:04:58.152Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:05:03.573Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:05:09.510Z INFO gateway: health check ok
+2026-10-06T10:05:16.319Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:05:16.484Z WARN gateway: slow request 850ms
+2026-10-06T10:05:28.860Z INFO gateway: health check ok
+2026-10-06T10:05:29.023Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:05:33.581Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:05:41.992Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:05:44.407Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:05:47.670Z INFO gateway: health check ok
+2026-10-06T10:05:51.319Z DEBUG gateway: POST /api/cart 201 31ms
+2026-10-06T10:05:51.377Z INFO gateway: health check ok
+2026-10-06T10:05:54.535Z INFO gateway: health check ok
+2026-10-06T10:06:08.396Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:06:08.566Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:06:10.445Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:06:11.351Z INFO gateway: health check ok
+2026-10-06T10:06:22.031Z DEBUG gateway: POST /api/cart 201 31ms
+2026-10-06T10:06:22.843Z DEBUG gateway: POST /api/cart 201 31ms
+2026-10-06T10:06:26.140Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:06:35.419Z INFO gateway: health check ok
+2026-10-06T10:06:37.964Z DEBUG gateway: POST /api/cart 201 31ms
+2026-10-06T10:06:49.210Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:06:51.005Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:06:56.582Z INFO gateway: health check ok
+2026-10-06T10:07:03.820Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:07:11.976Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:07:14.916Z DEBUG gateway: health check ok
+2026-10-06T10:07:17.409Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:07:18.118Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:07:19.710Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:07:21.730Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:07:24.784Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:07:28.068Z INFO gateway: health check ok
+2026-10-06T10:07:35.915Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:07:44.227Z INFO gateway: health check ok
+2026-10-06T10:07:50.735Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:07:59.815Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:08:02.915Z INFO gateway: health check ok
+2026-10-06T10:08:06.148Z DEBUG gateway: health check ok
+2026-10-06T10:08:17.427Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:08:24.959Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:08:26.593Z INFO gateway: health check ok
+2026-10-06T10:08:33.872Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:08:35.171Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:08:42.719Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:09:04.799Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:09:21.640Z INFO gateway: health check ok
+2026-10-06T10:09:27.452Z WARN gateway: slow request 850ms
+2026-10-06T10:09:33.982Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:09:36.127Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:09:43.247Z INFO gateway: health check ok
+2026-10-06T10:09:52.876Z INFO gateway: health check ok
+2026-10-06T10:10:03.005Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:10:13.336Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:10:16.074Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:10:24.911Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:10:29.984Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:10:30.699Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:10:39.337Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:10:42.781Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:10:48.596Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:10:48.654Z INFO gateway: health check ok
+2026-10-06T10:10:48.895Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:10:56.269Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:11:03.996Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:11:09.657Z INFO gateway: health check ok
+2026-10-06T10:11:10.450Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:11:14.239Z WARN gateway: slow request 850ms
+2026-10-06T10:11:26.931Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:11:30.126Z INFO gateway: health check ok
+2026-10-06T10:11:30.853Z DEBUG gateway: health check ok
+2026-10-06T10:11:33.020Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:11:35.419Z INFO gateway: health check ok
+2026-10-06T10:11:41.991Z INFO gateway: health check ok
+2026-10-06T10:11:46.964Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:11:53.573Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:11:54.385Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:12:04.355Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:12:14.252Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:12:19.587Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:12:20.791Z INFO gateway: health check ok
+2026-10-06T10:12:21.451Z INFO gateway: health check ok
+2026-10-06T10:12:35.203Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:12:44.014Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:12:48.380Z INFO gateway: health check ok
+2026-10-06T10:13:08.613Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:13:20.828Z DEBUG gateway: health check ok
+2026-10-06T10:13:23.434Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:13:23.852Z INFO gateway: health check ok
+2026-10-06T10:13:34.554Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:13:37.541Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:13:40.189Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:13:40.520Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:13:41.958Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:13:44.745Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:13:45.378Z INFO gateway: health check ok
+2026-10-06T10:13:58.114Z INFO gateway: health check ok
+2026-10-06T10:13:58.769Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:13:59.162Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:14:13.728Z DEBUG gateway: POST /api/cart 201 31ms
+2026-10-06T10:14:14.524Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:14:19.340Z INFO gateway: health check ok
+2026-10-06T10:14:21.479Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:14:24.088Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:14:25.266Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:14:25.780Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:14:29.312Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:14:30.293Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:14:32.819Z INFO gateway: health check ok
+2026-10-06T10:14:54.579Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:15:05.551Z INFO gateway: health check ok
+2026-10-06T10:15:23.570Z INFO gateway: health check ok
+2026-10-06T10:15:25.237Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:15:25.897Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:15:26.969Z INFO gateway: health check ok
+2026-10-06T10:15:28.451Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:15:34.723Z INFO gateway: health check ok
+2026-10-06T10:15:36.997Z INFO gateway: health check ok
+2026-10-06T10:15:41.915Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:15:50.297Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:15:57.924Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:16:00.722Z INFO gateway: health check ok
+2026-10-06T10:16:04.060Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:16:18.468Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:16:19.652Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:16:36.650Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:16:38.139Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:16:58.476Z DEBUG gateway: health check ok
+2026-10-06T10:17:10.806Z INFO gateway: health check ok
+2026-10-06T10:17:11.020Z INFO gateway: health check ok
+2026-10-06T10:17:14.600Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:17:16.373Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:17:34.851Z INFO gateway: health check ok
+2026-10-06T10:17:37.228Z INFO gateway: health check ok
+2026-10-06T10:17:55.404Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:18:00.220Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:18:09.803Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:18:20.583Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:18:26.156Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:18:29.248Z INFO gateway: health check ok
+2026-10-06T10:18:31.055Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:18:34.979Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:18:35.771Z DEBUG gateway: POST /api/cart 201 31ms
+2026-10-06T10:18:35.949Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:18:37.665Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:18:40.130Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:18:49.640Z INFO gateway: health check ok
+2026-10-06T10:18:56.203Z INFO gateway: health check ok
+2026-10-06T10:19:00.887Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:19:01.014Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:19:01.532Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:19:14.573Z INFO gateway: health check ok
+2026-10-06T10:19:21.705Z INFO gateway: health check ok
+2026-10-06T10:19:35.422Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:19:41.637Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:19:44.890Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:19:58.645Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:20:02.430Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:20:03.420Z INFO gateway: health check ok
+2026-10-06T10:20:14.174Z DEBUG gateway: health check ok
+2026-10-06T10:20:25.508Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:20:27.261Z INFO gateway: health check ok
+2026-10-06T10:20:28.721Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:20:29.100Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:20:30.370Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:20:33.035Z INFO gateway: health check ok
+2026-10-06T10:20:34.897Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:20:36.949Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:20:59.725Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:21:11.843Z INFO gateway: health check ok
+2026-10-06T10:21:14.807Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:21:26.623Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:21:28.506Z INFO gateway: health check ok
+2026-10-06T10:21:40.725Z INFO gateway: health check ok
+2026-10-06T10:21:42.308Z INFO gateway: health check ok
+2026-10-06T10:21:49.956Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:21:50.742Z INFO gateway: health check ok
+2026-10-06T10:22:03.231Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:22:09.444Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:22:14.963Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:22:45.418Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:22:47.174Z WARN gateway: slow request 850ms
+2026-10-06T10:22:48.252Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:22:58.842Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:23:22.811Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:23:35.735Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:23:35.958Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:23:37.087Z INFO gateway: health check ok
+2026-10-06T10:23:38.503Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:23:43.057Z INFO gateway: health check ok
+2026-10-06T10:23:47.211Z INFO gateway: health check ok
+2026-10-06T10:23:57.096Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:23:58.863Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:24:18.293Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:24:22.455Z INFO gateway: health check ok
+2026-10-06T10:24:24.065Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:24:32.195Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:24:44.216Z DEBUG gateway: POST /api/cart 201 31ms
+2026-10-06T10:24:54.021Z INFO gateway: health check ok
+2026-10-06T10:24:55.087Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:25:12.659Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:25:18.131Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:25:21.586Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:25:23.633Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:25:25.517Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:25:40.039Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:25:43.332Z INFO gateway: health check ok
+2026-10-06T10:25:55.477Z INFO gateway: health check ok
+2026-10-06T10:25:57.319Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:26:21.629Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:26:30.472Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:26:31.666Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:26:47.056Z INFO gateway: health check ok
+2026-10-06T10:26:52.344Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:26:52.507Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:26:56.809Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:26:59.779Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:27:02.435Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:27:03.097Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:27:11.953Z INFO gateway: health check ok
+2026-10-06T10:27:33.652Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:27:40.748Z INFO gateway: health check ok
+2026-10-06T10:27:41.391Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:27:45.148Z INFO gateway: health check ok
+2026-10-06T10:27:49.015Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:28:00.127Z INFO gateway: health check ok
+2026-10-06T10:28:06.359Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:28:07.173Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:28:08.504Z INFO gateway: health check ok
+2026-10-06T10:28:12.337Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:28:23.617Z INFO gateway: health check ok
+2026-10-06T10:28:24.663Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:28:26.754Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:28:31.573Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:28:36.485Z DEBUG gateway: health check ok
+2026-10-06T10:28:41.061Z INFO gateway: health check ok
+2026-10-06T10:28:57.851Z WARN gateway: slow request 850ms
+2026-10-06T10:29:00.000Z ERROR gateway: upstream orders timed out
+2026-10-06T10:29:13.602Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:29:18.243Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:29:18.394Z INFO gateway: health check ok
+2026-10-06T10:29:22.611Z INFO gateway: health check ok
+2026-10-06T10:29:23.833Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:29:29.654Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:29:30.000Z ERROR gateway: upstream payments deadline exceeded
+2026-10-06T10:29:31.764Z INFO gateway: health check ok
+2026-10-06T10:29:34.715Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:29:54.140Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:30:00.000Z FATAL gateway: service unavailable: circuit breaker open for orders
+2026-10-06T10:30:01.824Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:30:02.719Z INFO gateway: health check ok
+2026-10-06T10:30:12.015Z INFO gateway: health check ok
+2026-10-06T10:30:23.403Z INFO gateway: health check ok
+2026-10-06T10:30:26.276Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:30:27.215Z INFO gateway: health check ok
+2026-10-06T10:30:29.447Z INFO gateway: health check ok
+2026-10-06T10:30:34.418Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:30:38.187Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:30:54.562Z INFO gateway: health check ok
+2026-10-06T10:30:57.699Z DEBUG gateway: POST /api/cart 201 31ms
+2026-10-06T10:31:02.170Z INFO gateway: health check ok
+2026-10-06T10:31:03.576Z INFO gateway: health check ok
+2026-10-06T10:31:13.847Z INFO gateway: health check ok
+2026-10-06T10:31:15.298Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:31:23.166Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:31:27.351Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:31:36.262Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:31:42.686Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:32:09.551Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:32:21.258Z INFO gateway: health check ok
+2026-10-06T10:32:25.578Z INFO gateway: health check ok
+2026-10-06T10:32:29.001Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:32:29.751Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:32:34.918Z INFO gateway: health check ok
+2026-10-06T10:32:35.149Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:32:35.282Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:32:38.926Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:32:54.423Z INFO gateway: health check ok
+2026-10-06T10:32:59.646Z WARN gateway: slow request 850ms
+2026-10-06T10:33:00.495Z INFO gateway: health check ok
+2026-10-06T10:33:05.501Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:33:07.788Z INFO gateway: health check ok
+2026-10-06T10:33:10.961Z INFO gateway: health check ok
+2026-10-06T10:33:12.146Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:33:28.958Z WARN gateway: slow request 850ms
+2026-10-06T10:33:30.009Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:33:30.698Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:33:33.790Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:33:51.889Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:34:00.718Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:34:01.636Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:34:09.162Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:34:11.836Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:34:21.071Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:34:28.450Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:34:30.795Z INFO gateway: health check ok
+2026-10-06T10:34:31.865Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:34:46.577Z INFO gateway: health check ok
+2026-10-06T10:34:49.729Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:34:53.672Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:34:57.583Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:35:04.010Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:35:13.458Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:35:20.449Z INFO gateway: health check ok
+2026-10-06T10:35:27.321Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:35:35.763Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:35:42.647Z DEBUG gateway: health check ok
+2026-10-06T10:35:59.383Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:36:03.241Z INFO gateway: health check ok
+2026-10-06T10:36:13.197Z INFO gateway: health check ok
+2026-10-06T10:36:26.148Z INFO gateway: health check ok
+2026-10-06T10:36:32.935Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:36:34.409Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:36:35.232Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:36:46.103Z INFO gateway: health check ok
+2026-10-06T10:36:47.195Z INFO gateway: health check ok
+2026-10-06T10:36:49.966Z INFO gateway: health check ok
+2026-10-06T10:36:55.345Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:37:09.394Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:37:11.947Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:37:13.946Z WARN gateway: slow request 850ms
+2026-10-06T10:37:27.289Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:37:28.491Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:37:28.694Z INFO gateway: health check ok
+2026-10-06T10:37:33.801Z INFO gateway: health check ok
+2026-10-06T10:37:35.531Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:37:37.172Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:37:41.797Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:37:56.133Z INFO gateway: health check ok
+2026-10-06T10:37:59.166Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:38:03.982Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:38:10.747Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:38:11.785Z WARN gateway: slow request 850ms
+2026-10-06T10:38:12.508Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:38:17.605Z INFO gateway: health check ok
+2026-10-06T10:38:26.400Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:38:28.094Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:38:34.617Z INFO gateway: health check ok
+2026-10-06T10:38:49.663Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:38:49.666Z INFO gateway: health check ok
+2026-10-06T10:38:49.806Z INFO gateway: health check ok
+2026-10-06T10:38:58.828Z DEBUG gateway: health check ok
+2026-10-06T10:39:05.906Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:39:11.057Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:39:16.508Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:39:21.701Z INFO gateway: health check ok
+2026-10-06T10:39:24.283Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:39:24.786Z INFO gateway: health check ok
+2026-10-06T10:39:26.979Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:39:30.939Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:39:36.691Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:39:43.853Z INFO gateway: health check ok
+2026-10-06T10:39:48.941Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:39:53.691Z INFO gateway: health check ok
+2026-10-06T10:39:56.262Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:40:04.123Z INFO gateway: health check ok
+2026-10-06T10:40:14.592Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:40:15.506Z INFO gateway: health check ok
+2026-10-06T10:40:27.163Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:40:29.676Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:40:36.761Z DEBUG gateway: health check ok
+2026-10-06T10:40:47.179Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:40:50.543Z INFO gateway: health check ok
+2026-10-06T10:40:57.317Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:41:01.340Z INFO gateway: health check ok
+2026-10-06T10:41:04.734Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:41:16.833Z WARN gateway: slow request 850ms
+2026-10-06T10:41:23.593Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:41:35.364Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:41:37.929Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:41:39.002Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:41:41.889Z INFO gateway: health check ok
+2026-10-06T10:41:43.461Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:41:51.735Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:41:52.878Z DEBUG gateway: health check ok
+2026-10-06T10:41:53.291Z INFO gateway: health check ok
+2026-10-06T10:42:14.170Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:42:18.171Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:42:19.539Z INFO gateway: health check ok
+2026-10-06T10:42:26.901Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:42:33.246Z INFO gateway: health check ok
+2026-10-06T10:42:34.242Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:42:34.941Z INFO gateway: health check ok
+2026-10-06T10:42:45.347Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:42:50.047Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:42:56.907Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:43:00.014Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:43:01.553Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:43:03.309Z INFO gateway: health check ok
+2026-10-06T10:43:05.449Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:43:29.243Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:43:41.024Z WARN gateway: slow request 850ms
+2026-10-06T10:43:42.099Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:43:51.057Z INFO gateway: health check ok
+2026-10-06T10:43:51.063Z INFO gateway: health check ok
+2026-10-06T10:44:14.096Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:44:17.665Z INFO gateway: health check ok
+2026-10-06T10:44:19.494Z DEBUG gateway: health check ok
+2026-10-06T10:44:19.586Z INFO gateway: health check ok
+2026-10-06T10:44:22.315Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:44:24.028Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:44:25.646Z INFO gateway: health check ok
+2026-10-06T10:44:32.840Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:44:34.832Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:44:36.957Z WARN gateway: slow request 850ms
+2026-10-06T10:44:52.677Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:44:53.151Z INFO gateway: health check ok
+2026-10-06T10:44:59.829Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:45:02.574Z DEBUG gateway: POST /api/cart 201 31ms
+2026-10-06T10:45:12.727Z INFO gateway: health check ok
+2026-10-06T10:45:14.732Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:45:31.512Z WARN gateway: slow request 850ms
+2026-10-06T10:45:38.390Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:45:42.197Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:45:58.777Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:46:14.091Z INFO gateway: health check ok
+2026-10-06T10:46:19.798Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:46:24.606Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:46:29.535Z INFO gateway: health check ok
+2026-10-06T10:46:37.482Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:46:37.634Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:46:47.173Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:46:49.193Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:46:55.762Z INFO gateway: health check ok
+2026-10-06T10:46:56.523Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:46:58.091Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:47:02.169Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:47:06.957Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:47:09.112Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:47:13.454Z INFO gateway: health check ok
+2026-10-06T10:47:14.011Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:47:15.488Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:47:17.065Z INFO gateway: health check ok
+2026-10-06T10:47:20.739Z INFO gateway: health check ok
+2026-10-06T10:47:24.855Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:47:29.720Z WARN gateway: slow request 850ms
+2026-10-06T10:47:35.425Z INFO gateway: health check ok
+2026-10-06T10:47:36.293Z WARN gateway: slow request 850ms
+2026-10-06T10:47:45.827Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:47:50.210Z INFO gateway: health check ok
+2026-10-06T10:47:55.857Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:48:07.622Z INFO gateway: health check ok
+2026-10-06T10:48:09.668Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:48:10.024Z DEBUG gateway: health check ok
+2026-10-06T10:48:15.283Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:48:37.334Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:48:39.835Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:48:42.308Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:48:58.054Z INFO gateway: health check ok
+2026-10-06T10:49:00.590Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:49:02.436Z INFO gateway: health check ok
+2026-10-06T10:49:11.691Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:49:26.732Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:49:41.133Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:49:41.287Z INFO gateway: health check ok
+2026-10-06T10:49:45.158Z INFO gateway: health check ok
+2026-10-06T10:50:00.600Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:50:00.823Z INFO gateway: health check ok
+2026-10-06T10:50:17.977Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:50:21.355Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:50:26.331Z DEBUG gateway: POST /api/cart 201 31ms
+2026-10-06T10:50:28.343Z INFO gateway: health check ok
+2026-10-06T10:50:30.767Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:50:33.574Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:50:40.471Z INFO gateway: health check ok
+2026-10-06T10:50:52.354Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:50:55.825Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:51:11.436Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:51:19.180Z DEBUG gateway: health check ok
+2026-10-06T10:51:24.668Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:51:48.516Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:51:52.026Z WARN gateway: slow request 850ms
+2026-10-06T10:51:52.997Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:52:06.795Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:52:13.625Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:52:13.633Z INFO gateway: health check ok
+2026-10-06T10:52:13.936Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:52:37.258Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:52:42.167Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:52:44.241Z INFO gateway: health check ok
+2026-10-06T10:52:47.475Z DEBUG gateway: health check ok
+2026-10-06T10:52:51.634Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:53:04.422Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:53:10.703Z INFO gateway: health check ok
+2026-10-06T10:53:13.514Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:53:14.733Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:53:20.749Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:53:23.613Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:53:34.876Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:53:37.742Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:53:52.287Z INFO gateway: health check ok
+2026-10-06T10:53:54.031Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:53:56.780Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:54:01.593Z INFO gateway: health check ok
+2026-10-06T10:54:06.856Z INFO gateway: health check ok
+2026-10-06T10:54:09.106Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:54:17.594Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:54:20.857Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:54:25.028Z INFO gateway: health check ok
+2026-10-06T10:54:25.900Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:54:30.675Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:54:50.238Z INFO gateway: health check ok
+2026-10-06T10:54:50.698Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:54:56.117Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:55:03.229Z INFO gateway: health check ok
+2026-10-06T10:55:03.485Z INFO gateway: health check ok
+2026-10-06T10:55:23.178Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:55:30.822Z INFO gateway: health check ok
+2026-10-06T10:55:32.493Z INFO gateway: health check ok
+2026-10-06T10:55:34.620Z INFO gateway: health check ok
+2026-10-06T10:55:54.044Z INFO gateway: health check ok
+2026-10-06T10:55:56.896Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:55:58.205Z INFO gateway: health check ok
+2026-10-06T10:56:06.899Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:56:10.486Z INFO gateway: health check ok
+2026-10-06T10:56:11.615Z INFO gateway: health check ok
+2026-10-06T10:56:27.314Z INFO gateway: health check ok
+2026-10-06T10:56:32.351Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:56:32.566Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:56:38.877Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:56:44.846Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:56:46.664Z INFO gateway: health check ok
+2026-10-06T10:56:56.426Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:56:59.717Z WARN gateway: slow request 850ms
+2026-10-06T10:57:06.617Z INFO gateway: health check ok
+2026-10-06T10:57:07.280Z DEBUG gateway: POST /api/cart 201 31ms
+2026-10-06T10:57:25.108Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:57:28.299Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:57:43.683Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:57:53.479Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:58:02.890Z DEBUG gateway: GET /api/items 200 12ms
+2026-10-06T10:58:03.666Z INFO gateway: health check ok
+2026-10-06T10:58:10.906Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:58:14.116Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:58:18.226Z INFO gateway: health check ok
+2026-10-06T10:58:20.320Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:58:21.775Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:58:22.674Z DEBUG gateway: health check ok
+2026-10-06T10:58:24.096Z INFO gateway: health check ok
+2026-10-06T10:58:25.277Z INFO gateway: health check ok
+2026-10-06T10:58:26.371Z DEBUG gateway: POST /api/cart 201 31ms
+2026-10-06T10:58:33.320Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:58:40.985Z INFO gateway: health check ok
+2026-10-06T10:58:42.604Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:58:45.055Z INFO gateway: health check ok
+2026-10-06T10:58:47.739Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:58:50.902Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:58:52.376Z DEBUG gateway: health check ok
+2026-10-06T10:58:53.956Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:59:01.798Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:59:06.019Z INFO gateway: health check ok
+2026-10-06T10:59:11.695Z INFO gateway: POST /api/cart 201 31ms
+2026-10-06T10:59:11.933Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:59:26.806Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:59:35.204Z INFO gateway: GET /api/items 200 12ms
+2026-10-06T10:59:36.892Z WARN gateway: slow request 850ms

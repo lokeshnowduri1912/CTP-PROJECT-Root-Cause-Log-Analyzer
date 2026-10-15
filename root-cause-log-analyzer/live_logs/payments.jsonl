@@ -1,0 +1,625 @@
+{"ts": "2026-10-06T10:00:06.268Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:00:09.992Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:00:13.577Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:00:13.937Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:00:14.155Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:00:16.684Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:00:35.277Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:00:42.043Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:00:47.292Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:00:53.745Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:01:08.051Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:01:10.138Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:01:15.887Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:01:16.999Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:01:32.430Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:01:32.501Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:01:43.380Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:01:43.437Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:02:00.117Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:02:14.766Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:02:21.241Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:02:31.897Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:02:36.908Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:02:48.632Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:03:04.258Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:03:07.335Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:03:07.586Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:03:08.549Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:03:16.081Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:03:19.788Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:03:20.771Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:03:25.126Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:03:32.880Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:03:34.333Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:03:38.344Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:03:39.256Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:03:52.259Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:03:54.705Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:04:00.881Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:04:01.900Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:04:02.756Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:04:28.606Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:04:31.426Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:04:32.940Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:04:41.403Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:04:44.453Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:04:49.286Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:04:53.112Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:05:07.007Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:05:12.274Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:05:15.274Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:05:15.936Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:05:25.206Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:05:37.775Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:05:38.439Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:05:42.186Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:05:47.121Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:05:51.233Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:05:53.013Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:05:53.309Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:05:58.451Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:05:58.581Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:06:01.430Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:06:01.573Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:06:03.265Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:06:15.573Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:06:18.936Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:06:33.404Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:06:34.733Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:06:44.563Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:06:46.305Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:06:53.590Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:07:01.105Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:07:02.388Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:07:05.036Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:07:18.687Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:07:38.320Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:07:42.068Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:07:54.048Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:08:02.442Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:08:24.004Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:08:36.860Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:08:41.107Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:08:41.382Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:08:51.790Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:08:55.110Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:09:01.191Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:09:01.350Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:09:06.832Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:09:06.940Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:09:13.187Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:09:19.789Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:09:21.696Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:09:31.562Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:09:33.550Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:09:37.619Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:09:40.194Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:09:45.259Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:09:52.020Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:09:56.529Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:09:57.589Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:10:06.477Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:10:07.471Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:10:14.675Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:10:18.427Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:10:18.582Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:10:36.724Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:10:37.902Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:10:43.550Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:10:53.334Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:10:54.219Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:11:01.143Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:11:06.522Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:11:07.094Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:11:08.651Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:11:09.203Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:11:15.187Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:11:17.191Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:11:17.700Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:11:23.786Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:11:28.303Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:11:28.624Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:11:34.167Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:11:40.170Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:11:42.326Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:11:47.207Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:11:52.040Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:12:00.957Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:12:14.476Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:12:16.462Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:12:23.157Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:12:25.457Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:12:45.457Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:12:59.793Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:13:02.438Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:13:08.190Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:13:14.567Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:13:16.227Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:13:19.392Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:13:20.969Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:13:21.571Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:13:34.720Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:13:36.644Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:13:41.403Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:13:50.650Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:13:54.136Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:14:04.434Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:14:11.837Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:14:13.005Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:14:20.855Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:14:22.014Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:14:25.941Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:14:39.780Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:14:54.880Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:15:18.566Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:15:20.730Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:15:21.698Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:15:21.848Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:15:23.603Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:15:26.572Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:15:28.191Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:15:35.494Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:15:46.406Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:15:46.660Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:15:47.451Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:15:54.658Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:16:01.668Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:16:03.597Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:16:12.173Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:16:12.614Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:16:24.359Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:16:26.007Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:16:55.136Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:16:58.341Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:16:58.713Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:17:08.243Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:17:23.859Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:17:28.216Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:17:28.555Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:17:34.378Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:17:35.010Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:17:43.815Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:17:49.346Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:17:50.469Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:17:52.812Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:17:59.205Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:17:59.745Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:18:01.669Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:18:03.010Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:18:05.356Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:18:06.552Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:18:09.441Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:18:14.863Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:18:36.260Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:18:38.535Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:18:52.181Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:19:24.701Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:19:25.804Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:19:26.229Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:19:27.892Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:19:33.276Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:19:33.861Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:19:38.503Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:19:42.793Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:19:43.151Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:19:53.638Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:19:56.857Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:19:58.633Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:20:02.593Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:20:10.345Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:20:11.663Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:20:12.199Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:20:12.554Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:20:25.436Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:20:27.745Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:20:30.250Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:20:37.859Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:20:41.589Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:20:44.857Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:21:00.827Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:21:07.979Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:21:20.506Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:21:23.927Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:21:24.601Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:21:28.099Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:21:34.061Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:21:51.217Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:21:54.134Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:22:04.961Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:22:12.391Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:22:16.656Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:22:27.195Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:22:28.737Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:22:32.130Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:22:50.955Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:22:53.855Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:22:53.856Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:23:07.317Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:23:09.037Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:23:16.738Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:23:23.741Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:23:33.074Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:23:34.437Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:23:44.105Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:23:45.018Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:23:45.388Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:23:52.431Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:23:57.130Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:23:58.240Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:23:59.683Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:24:04.311Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:24:04.523Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:24:06.033Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:24:07.171Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:24:12.475Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:24:13.386Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:24:17.316Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:24:38.329Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:24:49.988Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:24:59.422Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:25:06.308Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:25:14.653Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:25:18.114Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:25:18.424Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:25:25.071Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:25:33.511Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:25:36.527Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:25:38.297Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:25:41.770Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:25:43.932Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:25:57.406Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:26:11.397Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:26:12.290Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:26:16.585Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:26:29.274Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:26:37.515Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:26:43.938Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:26:55.124Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:26:56.672Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:27:00.068Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:27:01.019Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:27:20.640Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:27:33.559Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:27:33.867Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:27:43.220Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:27:48.011Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:27:50.098Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:27:58.151Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:28:01.996Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:28:05.735Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:28:20.000Z", "level": "WARN", "service": "payments", "msg": "db request timed out"}
+{"ts": "2026-10-06T10:28:21.318Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:28:31.095Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:28:44.937Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:28:55.362Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:29:10.440Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:29:12.148Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:29:18.220Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:29:20.353Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:29:23.967Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:29:25.121Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:29:36.651Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:29:36.913Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:29:41.292Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:29:44.742Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:29:44.753Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:29:48.029Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:29:54.318Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:29:54.788Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:29:58.884Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:30:04.284Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:30:13.439Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:30:13.443Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:30:13.454Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:30:14.124Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:30:32.036Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:30:37.788Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:30:38.252Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:30:46.856Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:30:48.930Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:30:57.351Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:30:57.977Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:31:06.586Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:31:21.468Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:31:28.635Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:31:34.444Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:31:34.711Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:31:40.348Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:31:45.635Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:31:50.332Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:31:52.006Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:32:01.793Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:32:05.523Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:32:05.810Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:32:23.988Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:32:41.384Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:32:47.369Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:32:51.659Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:32:54.285Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:32:56.900Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:33:11.972Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:33:13.227Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:33:14.802Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:33:19.265Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:33:19.590Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:33:28.430Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:33:46.880Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:33:54.020Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:33:55.905Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:33:56.731Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:34:02.950Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:34:05.536Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:34:06.426Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:34:08.369Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:34:10.985Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:34:13.030Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:34:13.423Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:34:14.539Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:34:18.960Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:34:34.722Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:34:37.840Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:34:38.497Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:34:39.152Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:34:39.353Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:34:42.393Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:34:42.553Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:34:47.955Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:34:57.448Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:35:13.891Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:35:16.604Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:35:22.061Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:35:24.883Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:35:39.507Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:35:41.631Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:35:45.025Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:35:46.445Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:35:53.630Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:35:59.582Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:36:04.054Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:36:19.889Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:36:20.128Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:36:26.115Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:36:32.933Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:36:54.147Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:37:05.814Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:37:21.896Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:37:33.264Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:37:35.218Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:37:41.490Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:37:45.268Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:37:46.409Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:37:46.944Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:37:58.054Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:38:09.117Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:38:11.419Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:38:13.751Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:38:18.423Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:38:23.272Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:38:32.492Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:38:41.810Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:38:55.473Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:38:55.787Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:39:03.364Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:39:05.433Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:39:09.498Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:39:20.820Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:39:23.396Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:39:27.757Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:39:28.173Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:39:32.620Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:39:32.628Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:39:41.146Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:39:47.320Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:39:52.416Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:39:55.021Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:39:56.759Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:40:00.085Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:40:01.819Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:40:13.482Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:40:31.238Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:40:32.853Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:40:45.357Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:40:53.942Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:40:54.860Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:40:57.240Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:41:03.579Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:41:08.226Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:41:20.920Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:41:25.235Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:41:26.229Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:41:33.078Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:41:34.189Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:41:39.092Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:41:41.433Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:41:44.141Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:41:46.997Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:41:54.894Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:41:56.379Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:42:05.845Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:42:13.248Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:42:16.060Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:42:22.333Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:42:33.424Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:42:33.557Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:42:36.518Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:42:38.889Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:42:40.764Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:42:44.325Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:42:47.710Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:43:01.956Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:43:05.215Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:43:07.306Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:43:08.569Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:43:12.296Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:43:15.566Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:43:16.283Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:43:17.089Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:43:23.028Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:43:24.812Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:43:25.895Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:43:37.559Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:43:40.914Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:43:41.956Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:43:49.895Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:44:13.010Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:44:20.517Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:44:25.452Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:44:29.294Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:44:31.595Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:44:31.676Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:44:57.429Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:44:58.172Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:45:05.340Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:45:10.491Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:45:22.482Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:45:25.478Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:45:41.197Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:45:41.699Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:45:43.297Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:45:57.912Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:46:01.811Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:46:02.096Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:46:09.741Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:46:11.561Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:46:21.260Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:46:26.873Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:46:29.988Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:46:30.700Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:46:40.361Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:46:45.422Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:46:51.782Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:47:06.217Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:47:11.544Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:47:23.198Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:47:26.479Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:47:26.962Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:47:28.570Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:47:29.398Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:47:29.993Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:47:34.618Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:47:47.389Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:47:58.515Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:48:04.640Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:48:07.099Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:48:08.215Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:48:16.144Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:48:17.772Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:48:32.650Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:48:34.306Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:48:38.318Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:48:42.187Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:48:46.089Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:48:48.137Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:48:55.612Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:49:02.803Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:49:13.506Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:49:21.928Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:49:25.372Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:49:31.176Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:49:33.705Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:49:34.817Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:49:43.879Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:49:47.576Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:49:48.105Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:50:02.908Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:50:04.735Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:50:07.666Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:50:12.583Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:50:14.088Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:50:14.194Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:50:16.154Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:50:16.766Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:50:17.350Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:50:17.890Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:50:18.846Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:50:23.999Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:50:27.457Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:50:29.306Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:50:42.049Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:50:45.480Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:50:58.438Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:50:58.516Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:51:04.071Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:51:23.757Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:51:28.455Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:51:31.817Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:51:35.085Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:51:39.108Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:51:52.219Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:52:20.363Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:52:22.128Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:52:29.139Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:53:03.359Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:53:05.860Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:53:06.374Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:53:07.216Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:53:07.928Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:53:08.870Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:53:09.557Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:53:13.352Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:53:23.345Z", "level": "DEBUG", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:53:27.645Z", "level": "DEBUG", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:53:28.608Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:53:31.599Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:53:46.616Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:53:55.313Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:53:55.360Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:53:57.415Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:53:58.877Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:53:59.485Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:54:05.166Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:54:36.056Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:54:43.825Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:54:53.760Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:54:55.652Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:54:59.659Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:54:59.782Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:55:09.017Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:55:11.796Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:55:12.383Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:55:13.871Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:55:14.146Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:55:17.478Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:55:20.635Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:55:42.616Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:55:53.743Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:56:02.105Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:56:18.073Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:56:22.181Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:56:24.065Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:56:46.397Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:56:50.456Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:56:58.266Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:56:59.986Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:57:00.644Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:57:01.843Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:57:02.639Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:57:11.152Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:57:11.479Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:57:24.238Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:57:27.832Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:57:55.714Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:58:14.520Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:58:14.604Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:58:14.792Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:58:16.664Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:58:41.694Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:58:43.163Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:58:47.812Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:58:50.730Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:58:54.788Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:59:01.975Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:59:03.056Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:59:05.034Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:59:17.118Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:59:18.037Z", "level": "DEBUG", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:59:35.254Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:59:36.583Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:59:37.854Z", "level": "INFO", "service": "payments", "msg": "charge 1203 authorised"}
+{"ts": "2026-10-06T10:59:41.101Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:59:41.731Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}
+{"ts": "2026-10-06T10:59:42.785Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:59:44.684Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:59:46.868Z", "level": "INFO", "service": "payments", "msg": "refund 77 processed"}
+{"ts": "2026-10-06T10:59:59.140Z", "level": "INFO", "service": "payments", "msg": "webhook delivered"}

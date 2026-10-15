@@ -1,0 +1,31 @@
+name: ci
+on:
+  push: { branches: [main] }
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: { python: ["3.11", "3.12"] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "${{ matrix.python }}", cache: pip }
+      - run: pip install -e ".[dev]"
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: mypy
+      - run: pytest            # unit + property + integration + e2e, coverage gate >= 90%
+
+  container:
+    needs: quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t rca:ci .
+      - name: smoke test (end-to-end inside the container)
+        run: |
+          docker run --rm rca:ci generate /data/logs --noise 5000
+          docker run --rm -v "$PWD/out:/data" rca:ci generate /data/logs
+          docker run --rm -v "$PWD/out:/data" rca:ci analyze /data/logs --format json | grep '"root_cause": "db"'

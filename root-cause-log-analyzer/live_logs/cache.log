@@ -1,0 +1,553 @@
+2026-10-06T10:00:04.279Z INFO cache: replica in sync
+2026-10-06T10:00:04.926Z DEBUG cache: replica in sync
+2026-10-06T10:00:08.461Z INFO cache: replica in sync
+2026-10-06T10:00:08.944Z INFO cache: replica in sync
+2026-10-06T10:00:10.502Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:00:14.736Z INFO cache: evicted 12 keys
+2026-10-06T10:00:18.180Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:00:18.743Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:00:22.188Z INFO cache: evicted 12 keys
+2026-10-06T10:00:23.784Z INFO cache: replica in sync
+2026-10-06T10:00:25.251Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:00:31.555Z INFO cache: evicted 12 keys
+2026-10-06T10:00:33.034Z INFO cache: evicted 12 keys
+2026-10-06T10:00:38.124Z INFO cache: evicted 12 keys
+2026-10-06T10:00:57.912Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:01:13.362Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:01:14.476Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:01:15.988Z INFO cache: replica in sync
+2026-10-06T10:01:32.041Z DEBUG cache: evicted 12 keys
+2026-10-06T10:01:44.328Z INFO cache: replica in sync
+2026-10-06T10:01:44.522Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:01:52.037Z INFO cache: replica in sync
+2026-10-06T10:01:52.493Z INFO cache: evicted 12 keys
+2026-10-06T10:02:02.801Z INFO cache: replica in sync
+2026-10-06T10:02:10.209Z INFO cache: evicted 12 keys
+2026-10-06T10:02:12.729Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:02:17.326Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:02:33.199Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:02:37.449Z INFO cache: replica in sync
+2026-10-06T10:02:50.478Z INFO cache: evicted 12 keys
+2026-10-06T10:02:56.671Z INFO cache: evicted 12 keys
+2026-10-06T10:03:08.673Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:03:13.021Z INFO cache: replica in sync
+2026-10-06T10:03:16.964Z INFO cache: evicted 12 keys
+2026-10-06T10:03:24.774Z INFO cache: replica in sync
+2026-10-06T10:03:25.345Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:03:28.796Z INFO cache: replica in sync
+2026-10-06T10:03:38.296Z INFO cache: evicted 12 keys
+2026-10-06T10:03:45.961Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:03:49.561Z INFO cache: evicted 12 keys
+2026-10-06T10:03:51.021Z INFO cache: replica in sync
+2026-10-06T10:03:51.307Z INFO cache: replica in sync
+2026-10-06T10:03:53.276Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:04:06.743Z DEBUG cache: replica in sync
+2026-10-06T10:04:11.303Z INFO cache: evicted 12 keys
+2026-10-06T10:04:17.182Z INFO cache: replica in sync
+2026-10-06T10:04:19.182Z INFO cache: evicted 12 keys
+2026-10-06T10:04:24.313Z INFO cache: replica in sync
+2026-10-06T10:04:24.601Z INFO cache: evicted 12 keys
+2026-10-06T10:04:32.003Z INFO cache: replica in sync
+2026-10-06T10:04:41.281Z INFO cache: replica in sync
+2026-10-06T10:04:43.717Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:04:48.823Z INFO cache: replica in sync
+2026-10-06T10:04:55.079Z INFO cache: replica in sync
+2026-10-06T10:05:00.556Z INFO cache: replica in sync
+2026-10-06T10:05:06.716Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:05:11.812Z INFO cache: evicted 12 keys
+2026-10-06T10:05:16.230Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:05:16.547Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:05:16.800Z INFO cache: replica in sync
+2026-10-06T10:05:29.314Z INFO cache: replica in sync
+2026-10-06T10:05:32.210Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:05:33.353Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:05:46.742Z INFO cache: replica in sync
+2026-10-06T10:05:48.231Z INFO cache: replica in sync
+2026-10-06T10:06:08.617Z INFO cache: evicted 12 keys
+2026-10-06T10:06:11.263Z INFO cache: replica in sync
+2026-10-06T10:06:14.124Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:06:26.212Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:06:27.847Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:06:38.112Z INFO cache: replica in sync
+2026-10-06T10:06:55.272Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:06:56.664Z DEBUG cache: evicted 12 keys
+2026-10-06T10:07:06.970Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:07:18.645Z INFO cache: replica in sync
+2026-10-06T10:07:23.004Z INFO cache: evicted 12 keys
+2026-10-06T10:07:28.997Z INFO cache: evicted 12 keys
+2026-10-06T10:07:33.204Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:07:36.891Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:07:57.378Z INFO cache: evicted 12 keys
+2026-10-06T10:08:01.916Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:08:02.546Z INFO cache: evicted 12 keys
+2026-10-06T10:08:20.176Z INFO cache: replica in sync
+2026-10-06T10:08:21.971Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:08:33.932Z INFO cache: evicted 12 keys
+2026-10-06T10:08:43.393Z INFO cache: replica in sync
+2026-10-06T10:08:46.227Z INFO cache: replica in sync
+2026-10-06T10:08:48.330Z INFO cache: replica in sync
+2026-10-06T10:08:55.771Z DEBUG cache: cache hit ratio 0.93
+2026-10-06T10:08:56.915Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:09:01.379Z INFO cache: replica in sync
+2026-10-06T10:09:21.863Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:09:33.383Z INFO cache: replica in sync
+2026-10-06T10:09:40.563Z INFO cache: replica in sync
+2026-10-06T10:09:42.778Z INFO cache: replica in sync
+2026-10-06T10:09:49.306Z INFO cache: replica in sync
+2026-10-06T10:10:03.941Z INFO cache: evicted 12 keys
+2026-10-06T10:10:17.093Z INFO cache: replica in sync
+2026-10-06T10:10:24.897Z INFO cache: evicted 12 keys
+2026-10-06T10:10:28.186Z INFO cache: replica in sync
+2026-10-06T10:10:48.472Z INFO cache: evicted 12 keys
+2026-10-06T10:10:50.187Z INFO cache: evicted 12 keys
+2026-10-06T10:10:52.394Z INFO cache: replica in sync
+2026-10-06T10:10:53.417Z INFO cache: replica in sync
+2026-10-06T10:10:58.193Z DEBUG cache: cache hit ratio 0.93
+2026-10-06T10:11:05.450Z INFO cache: replica in sync
+2026-10-06T10:11:16.407Z INFO cache: evicted 12 keys
+2026-10-06T10:11:18.318Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:11:29.795Z INFO cache: replica in sync
+2026-10-06T10:11:42.128Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:11:43.497Z INFO cache: replica in sync
+2026-10-06T10:11:44.510Z DEBUG cache: cache hit ratio 0.93
+2026-10-06T10:11:50.749Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:11:57.081Z INFO cache: evicted 12 keys
+2026-10-06T10:12:00.684Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:12:00.821Z DEBUG cache: replica in sync
+2026-10-06T10:12:02.823Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:12:06.398Z INFO cache: replica in sync
+2026-10-06T10:12:11.264Z INFO cache: replica in sync
+2026-10-06T10:12:16.717Z DEBUG cache: cache hit ratio 0.93
+2026-10-06T10:12:26.618Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:12:30.382Z INFO cache: evicted 12 keys
+2026-10-06T10:12:35.098Z DEBUG cache: cache hit ratio 0.93
+2026-10-06T10:12:45.005Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:12:48.899Z INFO cache: replica in sync
+2026-10-06T10:12:56.453Z INFO cache: evicted 12 keys
+2026-10-06T10:12:59.161Z INFO cache: evicted 12 keys
+2026-10-06T10:13:03.848Z DEBUG cache: replica in sync
+2026-10-06T10:13:21.270Z INFO cache: replica in sync
+2026-10-06T10:13:21.856Z INFO cache: evicted 12 keys
+2026-10-06T10:13:45.343Z INFO cache: replica in sync
+2026-10-06T10:13:52.498Z INFO cache: replica in sync
+2026-10-06T10:14:01.099Z INFO cache: evicted 12 keys
+2026-10-06T10:14:01.752Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:14:10.366Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:14:32.221Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:14:33.307Z DEBUG cache: replica in sync
+2026-10-06T10:14:37.484Z INFO cache: evicted 12 keys
+2026-10-06T10:14:53.620Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:14:54.475Z INFO cache: evicted 12 keys
+2026-10-06T10:14:59.496Z INFO cache: evicted 12 keys
+2026-10-06T10:15:13.567Z INFO cache: evicted 12 keys
+2026-10-06T10:15:16.343Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:15:19.372Z INFO cache: replica in sync
+2026-10-06T10:15:19.665Z INFO cache: evicted 12 keys
+2026-10-06T10:15:22.113Z INFO cache: evicted 12 keys
+2026-10-06T10:15:25.645Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:15:32.807Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:15:45.125Z DEBUG cache: replica in sync
+2026-10-06T10:15:46.422Z INFO cache: evicted 12 keys
+2026-10-06T10:15:49.268Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:15:49.654Z INFO cache: evicted 12 keys
+2026-10-06T10:16:02.858Z INFO cache: replica in sync
+2026-10-06T10:16:15.089Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:16:19.685Z INFO cache: evicted 12 keys
+2026-10-06T10:16:27.105Z INFO cache: evicted 12 keys
+2026-10-06T10:16:30.753Z INFO cache: evicted 12 keys
+2026-10-06T10:16:46.654Z INFO cache: evicted 12 keys
+2026-10-06T10:16:48.963Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:17:01.427Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:17:01.991Z INFO cache: replica in sync
+2026-10-06T10:17:02.345Z INFO cache: evicted 12 keys
+2026-10-06T10:17:02.943Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:17:08.779Z INFO cache: replica in sync
+2026-10-06T10:17:10.656Z INFO cache: evicted 12 keys
+2026-10-06T10:17:16.581Z DEBUG cache: evicted 12 keys
+2026-10-06T10:17:17.533Z INFO cache: evicted 12 keys
+2026-10-06T10:17:24.213Z INFO cache: replica in sync
+2026-10-06T10:17:29.322Z INFO cache: replica in sync
+2026-10-06T10:17:46.081Z INFO cache: replica in sync
+2026-10-06T10:17:56.986Z INFO cache: replica in sync
+2026-10-06T10:17:58.538Z INFO cache: replica in sync
+2026-10-06T10:17:59.496Z INFO cache: replica in sync
+2026-10-06T10:18:05.476Z DEBUG cache: replica in sync
+2026-10-06T10:18:13.305Z INFO cache: evicted 12 keys
+2026-10-06T10:18:20.215Z INFO cache: replica in sync
+2026-10-06T10:18:24.900Z INFO cache: evicted 12 keys
+2026-10-06T10:18:25.666Z INFO cache: evicted 12 keys
+2026-10-06T10:18:30.264Z INFO cache: replica in sync
+2026-10-06T10:18:31.228Z INFO cache: evicted 12 keys
+2026-10-06T10:18:32.729Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:18:44.724Z INFO cache: evicted 12 keys
+2026-10-06T10:18:51.359Z INFO cache: replica in sync
+2026-10-06T10:19:00.723Z INFO cache: evicted 12 keys
+2026-10-06T10:19:11.763Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:19:23.782Z INFO cache: replica in sync
+2026-10-06T10:19:37.996Z INFO cache: evicted 12 keys
+2026-10-06T10:19:42.272Z INFO cache: replica in sync
+2026-10-06T10:19:43.650Z INFO cache: replica in sync
+2026-10-06T10:19:46.207Z INFO cache: evicted 12 keys
+2026-10-06T10:19:46.292Z INFO cache: evicted 12 keys
+2026-10-06T10:19:48.944Z INFO cache: evicted 12 keys
+2026-10-06T10:19:51.812Z INFO cache: replica in sync
+2026-10-06T10:19:54.648Z INFO cache: replica in sync
+2026-10-06T10:19:55.172Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:20:03.860Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:20:08.001Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:20:08.357Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:20:11.631Z INFO cache: evicted 12 keys
+2026-10-06T10:20:12.545Z INFO cache: replica in sync
+2026-10-06T10:20:18.296Z INFO cache: evicted 12 keys
+2026-10-06T10:20:24.465Z INFO cache: replica in sync
+2026-10-06T10:20:26.428Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:20:33.282Z INFO cache: replica in sync
+2026-10-06T10:20:39.474Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:20:54.661Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:21:03.911Z INFO cache: replica in sync
+2026-10-06T10:21:08.897Z INFO cache: evicted 12 keys
+2026-10-06T10:21:11.555Z INFO cache: replica in sync
+2026-10-06T10:21:18.623Z INFO cache: evicted 12 keys
+2026-10-06T10:21:21.962Z INFO cache: replica in sync
+2026-10-06T10:21:22.164Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:21:26.859Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:21:27.987Z INFO cache: evicted 12 keys
+2026-10-06T10:21:40.000Z WARN cache: slow response 250ms from replica
+2026-10-06T10:21:46.784Z INFO cache: replica in sync
+2026-10-06T10:21:56.518Z INFO cache: evicted 12 keys
+2026-10-06T10:22:04.060Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:22:09.171Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:22:17.935Z INFO cache: evicted 12 keys
+2026-10-06T10:22:20.631Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:22:48.466Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:22:53.783Z INFO cache: evicted 12 keys
+2026-10-06T10:22:54.407Z INFO cache: replica in sync
+2026-10-06T10:22:58.346Z INFO cache: evicted 12 keys
+2026-10-06T10:23:06.132Z INFO cache: evicted 12 keys
+2026-10-06T10:23:06.178Z INFO cache: evicted 12 keys
+2026-10-06T10:23:09.364Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:23:22.015Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:23:27.369Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:23:30.276Z INFO cache: evicted 12 keys
+2026-10-06T10:23:38.832Z INFO cache: evicted 12 keys
+2026-10-06T10:23:44.581Z INFO cache: evicted 12 keys
+2026-10-06T10:23:51.237Z DEBUG cache: evicted 12 keys
+2026-10-06T10:24:31.627Z INFO cache: replica in sync
+2026-10-06T10:24:44.134Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:24:45.713Z INFO cache: evicted 12 keys
+2026-10-06T10:24:47.658Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:24:47.934Z INFO cache: evicted 12 keys
+2026-10-06T10:24:50.773Z INFO cache: evicted 12 keys
+2026-10-06T10:24:59.089Z DEBUG cache: evicted 12 keys
+2026-10-06T10:24:59.203Z INFO cache: evicted 12 keys
+2026-10-06T10:25:04.505Z INFO cache: evicted 12 keys
+2026-10-06T10:25:36.675Z INFO cache: evicted 12 keys
+2026-10-06T10:25:42.932Z INFO cache: replica in sync
+2026-10-06T10:25:51.356Z INFO cache: replica in sync
+2026-10-06T10:25:58.945Z INFO cache: evicted 12 keys
+2026-10-06T10:26:06.675Z INFO cache: evicted 12 keys
+2026-10-06T10:26:10.747Z INFO cache: evicted 12 keys
+2026-10-06T10:26:13.511Z INFO cache: replica in sync
+2026-10-06T10:26:25.544Z INFO cache: evicted 12 keys
+2026-10-06T10:26:31.168Z INFO cache: replica in sync
+2026-10-06T10:26:32.735Z INFO cache: replica in sync
+2026-10-06T10:26:34.378Z INFO cache: evicted 12 keys
+2026-10-06T10:26:36.982Z INFO cache: evicted 12 keys
+2026-10-06T10:26:41.571Z INFO cache: replica in sync
+2026-10-06T10:26:45.149Z INFO cache: replica in sync
+2026-10-06T10:26:47.936Z INFO cache: replica in sync
+2026-10-06T10:26:58.737Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:26:59.418Z DEBUG cache: cache hit ratio 0.93
+2026-10-06T10:27:01.544Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:27:15.182Z INFO cache: evicted 12 keys
+2026-10-06T10:27:20.243Z INFO cache: evicted 12 keys
+2026-10-06T10:27:32.815Z INFO cache: replica in sync
+2026-10-06T10:27:34.975Z INFO cache: replica in sync
+2026-10-06T10:27:43.619Z INFO cache: evicted 12 keys
+2026-10-06T10:27:55.162Z DEBUG cache: evicted 12 keys
+2026-10-06T10:27:56.094Z INFO cache: replica in sync
+2026-10-06T10:27:56.231Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:28:00.901Z INFO cache: replica in sync
+2026-10-06T10:28:05.851Z INFO cache: replica in sync
+2026-10-06T10:28:24.747Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:28:25.890Z DEBUG cache: replica in sync
+2026-10-06T10:28:32.460Z DEBUG cache: replica in sync
+2026-10-06T10:28:32.856Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:28:34.192Z INFO cache: evicted 12 keys
+2026-10-06T10:28:37.253Z INFO cache: evicted 12 keys
+2026-10-06T10:28:41.101Z INFO cache: evicted 12 keys
+2026-10-06T10:28:45.633Z INFO cache: replica in sync
+2026-10-06T10:28:50.636Z INFO cache: evicted 12 keys
+2026-10-06T10:28:56.714Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:29:17.838Z INFO cache: evicted 12 keys
+2026-10-06T10:29:20.356Z INFO cache: replica in sync
+2026-10-06T10:29:22.236Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:29:23.697Z INFO cache: evicted 12 keys
+2026-10-06T10:29:31.266Z INFO cache: evicted 12 keys
+2026-10-06T10:29:31.572Z INFO cache: replica in sync
+2026-10-06T10:29:32.184Z INFO cache: replica in sync
+2026-10-06T10:29:40.242Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:29:51.493Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:29:53.581Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:29:56.013Z INFO cache: replica in sync
+2026-10-06T10:30:03.264Z INFO cache: replica in sync
+2026-10-06T10:30:17.048Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:30:17.386Z INFO cache: evicted 12 keys
+2026-10-06T10:30:26.869Z DEBUG cache: replica in sync
+2026-10-06T10:30:51.450Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:30:58.590Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:30:59.113Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:30:59.371Z INFO cache: evicted 12 keys
+2026-10-06T10:31:07.457Z INFO cache: evicted 12 keys
+2026-10-06T10:31:22.480Z INFO cache: evicted 12 keys
+2026-10-06T10:31:23.554Z INFO cache: replica in sync
+2026-10-06T10:31:24.623Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:31:25.305Z INFO cache: evicted 12 keys
+2026-10-06T10:31:44.896Z INFO cache: replica in sync
+2026-10-06T10:31:46.597Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:31:47.754Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:31:54.016Z INFO cache: replica in sync
+2026-10-06T10:32:04.033Z INFO cache: evicted 12 keys
+2026-10-06T10:32:06.344Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:32:18.314Z INFO cache: replica in sync
+2026-10-06T10:32:19.994Z INFO cache: evicted 12 keys
+2026-10-06T10:32:37.733Z INFO cache: replica in sync
+2026-10-06T10:32:51.404Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:32:52.305Z INFO cache: replica in sync
+2026-10-06T10:32:59.239Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:33:15.884Z INFO cache: evicted 12 keys
+2026-10-06T10:33:22.169Z INFO cache: evicted 12 keys
+2026-10-06T10:33:35.873Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:33:38.069Z INFO cache: replica in sync
+2026-10-06T10:33:46.653Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:33:57.758Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:34:11.521Z INFO cache: evicted 12 keys
+2026-10-06T10:34:21.554Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:34:21.745Z INFO cache: replica in sync
+2026-10-06T10:34:38.386Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:34:53.691Z INFO cache: evicted 12 keys
+2026-10-06T10:35:07.949Z INFO cache: replica in sync
+2026-10-06T10:35:11.480Z INFO cache: evicted 12 keys
+2026-10-06T10:35:18.861Z INFO cache: replica in sync
+2026-10-06T10:35:21.203Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:35:40.818Z INFO cache: evicted 12 keys
+2026-10-06T10:35:43.852Z DEBUG cache: cache hit ratio 0.93
+2026-10-06T10:35:48.059Z INFO cache: replica in sync
+2026-10-06T10:35:52.290Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:35:59.921Z INFO cache: replica in sync
+2026-10-06T10:36:08.403Z INFO cache: replica in sync
+2026-10-06T10:36:17.458Z INFO cache: evicted 12 keys
+2026-10-06T10:36:17.758Z DEBUG cache: replica in sync
+2026-10-06T10:36:24.536Z DEBUG cache: cache hit ratio 0.93
+2026-10-06T10:36:27.646Z INFO cache: evicted 12 keys
+2026-10-06T10:36:29.824Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:36:33.703Z INFO cache: evicted 12 keys
+2026-10-06T10:36:39.376Z DEBUG cache: replica in sync
+2026-10-06T10:36:46.815Z INFO cache: evicted 12 keys
+2026-10-06T10:36:48.846Z DEBUG cache: cache hit ratio 0.93
+2026-10-06T10:36:49.454Z INFO cache: evicted 12 keys
+2026-10-06T10:36:52.354Z INFO cache: evicted 12 keys
+2026-10-06T10:36:56.465Z INFO cache: evicted 12 keys
+2026-10-06T10:36:57.475Z INFO cache: replica in sync
+2026-10-06T10:36:58.362Z INFO cache: evicted 12 keys
+2026-10-06T10:37:01.624Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:37:36.531Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:37:39.273Z INFO cache: evicted 12 keys
+2026-10-06T10:37:41.637Z INFO cache: replica in sync
+2026-10-06T10:37:49.359Z INFO cache: evicted 12 keys
+2026-10-06T10:37:51.964Z INFO cache: evicted 12 keys
+2026-10-06T10:38:11.190Z INFO cache: evicted 12 keys
+2026-10-06T10:38:13.603Z INFO cache: evicted 12 keys
+2026-10-06T10:38:21.009Z INFO cache: evicted 12 keys
+2026-10-06T10:38:27.065Z INFO cache: replica in sync
+2026-10-06T10:38:31.211Z INFO cache: evicted 12 keys
+2026-10-06T10:38:51.297Z INFO cache: evicted 12 keys
+2026-10-06T10:38:55.613Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:39:00.578Z INFO cache: replica in sync
+2026-10-06T10:39:05.523Z INFO cache: evicted 12 keys
+2026-10-06T10:39:13.271Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:39:24.747Z INFO cache: evicted 12 keys
+2026-10-06T10:39:26.493Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:39:27.157Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:39:41.204Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:39:51.968Z INFO cache: replica in sync
+2026-10-06T10:39:59.180Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:40:01.784Z DEBUG cache: evicted 12 keys
+2026-10-06T10:40:07.202Z INFO cache: replica in sync
+2026-10-06T10:40:21.591Z INFO cache: replica in sync
+2026-10-06T10:40:25.710Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:40:34.320Z INFO cache: replica in sync
+2026-10-06T10:40:35.969Z INFO cache: replica in sync
+2026-10-06T10:40:37.290Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:40:40.277Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:40:50.616Z INFO cache: replica in sync
+2026-10-06T10:40:58.423Z INFO cache: replica in sync
+2026-10-06T10:41:04.699Z INFO cache: replica in sync
+2026-10-06T10:41:20.984Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:41:29.720Z INFO cache: evicted 12 keys
+2026-10-06T10:41:29.755Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:41:33.562Z INFO cache: replica in sync
+2026-10-06T10:41:47.422Z INFO cache: replica in sync
+2026-10-06T10:41:51.425Z INFO cache: replica in sync
+2026-10-06T10:41:57.705Z INFO cache: replica in sync
+2026-10-06T10:41:59.134Z INFO cache: evicted 12 keys
+2026-10-06T10:41:59.543Z INFO cache: replica in sync
+2026-10-06T10:42:01.290Z INFO cache: replica in sync
+2026-10-06T10:42:03.744Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:42:03.791Z INFO cache: replica in sync
+2026-10-06T10:42:12.013Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:42:33.574Z INFO cache: evicted 12 keys
+2026-10-06T10:42:34.332Z INFO cache: replica in sync
+2026-10-06T10:42:37.788Z INFO cache: evicted 12 keys
+2026-10-06T10:42:38.252Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:42:43.737Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:42:52.523Z DEBUG cache: evicted 12 keys
+2026-10-06T10:42:53.743Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:42:54.077Z INFO cache: replica in sync
+2026-10-06T10:43:02.265Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:43:04.644Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:43:10.979Z INFO cache: evicted 12 keys
+2026-10-06T10:43:14.438Z INFO cache: evicted 12 keys
+2026-10-06T10:43:22.588Z INFO cache: evicted 12 keys
+2026-10-06T10:43:32.554Z INFO cache: replica in sync
+2026-10-06T10:43:52.958Z INFO cache: replica in sync
+2026-10-06T10:43:55.256Z INFO cache: evicted 12 keys
+2026-10-06T10:43:55.790Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:43:58.939Z INFO cache: evicted 12 keys
+2026-10-06T10:44:01.449Z INFO cache: evicted 12 keys
+2026-10-06T10:44:01.694Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:44:03.077Z INFO cache: replica in sync
+2026-10-06T10:44:11.234Z INFO cache: replica in sync
+2026-10-06T10:44:12.828Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:44:19.093Z INFO cache: replica in sync
+2026-10-06T10:44:23.961Z INFO cache: replica in sync
+2026-10-06T10:44:27.819Z INFO cache: replica in sync
+2026-10-06T10:44:37.137Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:44:39.146Z INFO cache: replica in sync
+2026-10-06T10:44:46.753Z INFO cache: replica in sync
+2026-10-06T10:44:47.283Z INFO cache: replica in sync
+2026-10-06T10:44:55.769Z INFO cache: evicted 12 keys
+2026-10-06T10:44:57.179Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:44:58.767Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:45:01.939Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:45:09.474Z INFO cache: evicted 12 keys
+2026-10-06T10:45:13.661Z INFO cache: replica in sync
+2026-10-06T10:45:18.546Z DEBUG cache: replica in sync
+2026-10-06T10:45:20.363Z INFO cache: evicted 12 keys
+2026-10-06T10:45:30.434Z INFO cache: replica in sync
+2026-10-06T10:45:36.303Z INFO cache: evicted 12 keys
+2026-10-06T10:45:38.240Z INFO cache: replica in sync
+2026-10-06T10:45:56.371Z INFO cache: evicted 12 keys
+2026-10-06T10:46:07.695Z DEBUG cache: cache hit ratio 0.93
+2026-10-06T10:46:12.849Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:46:13.481Z INFO cache: replica in sync
+2026-10-06T10:46:13.575Z INFO cache: replica in sync
+2026-10-06T10:46:25.597Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:46:28.211Z INFO cache: replica in sync
+2026-10-06T10:46:31.675Z INFO cache: replica in sync
+2026-10-06T10:46:47.407Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:46:58.521Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:47:02.175Z INFO cache: evicted 12 keys
+2026-10-06T10:47:12.697Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:47:19.928Z INFO cache: replica in sync
+2026-10-06T10:47:20.497Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:47:22.538Z INFO cache: replica in sync
+2026-10-06T10:47:25.672Z INFO cache: replica in sync
+2026-10-06T10:47:51.572Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:47:54.228Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:47:56.298Z INFO cache: replica in sync
+2026-10-06T10:48:09.637Z INFO cache: evicted 12 keys
+2026-10-06T10:48:14.919Z INFO cache: evicted 12 keys
+2026-10-06T10:48:25.370Z INFO cache: evicted 12 keys
+2026-10-06T10:48:31.995Z INFO cache: evicted 12 keys
+2026-10-06T10:48:37.209Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:48:44.049Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:48:52.724Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:48:54.155Z INFO cache: evicted 12 keys
+2026-10-06T10:48:57.969Z INFO cache: replica in sync
+2026-10-06T10:49:01.058Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:49:22.665Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:49:30.625Z INFO cache: evicted 12 keys
+2026-10-06T10:49:31.589Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:49:32.000Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:49:33.909Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:50:00.528Z INFO cache: replica in sync
+2026-10-06T10:50:02.110Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:50:05.775Z INFO cache: replica in sync
+2026-10-06T10:50:13.569Z INFO cache: evicted 12 keys
+2026-10-06T10:50:36.781Z DEBUG cache: evicted 12 keys
+2026-10-06T10:50:50.371Z INFO cache: evicted 12 keys
+2026-10-06T10:51:08.913Z INFO cache: evicted 12 keys
+2026-10-06T10:51:30.448Z INFO cache: evicted 12 keys
+2026-10-06T10:51:47.919Z DEBUG cache: evicted 12 keys
+2026-10-06T10:51:57.924Z INFO cache: replica in sync
+2026-10-06T10:52:01.741Z INFO cache: evicted 12 keys
+2026-10-06T10:52:03.554Z INFO cache: replica in sync
+2026-10-06T10:52:15.814Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:52:30.494Z INFO cache: evicted 12 keys
+2026-10-06T10:52:32.977Z INFO cache: evicted 12 keys
+2026-10-06T10:52:35.943Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:52:37.346Z INFO cache: evicted 12 keys
+2026-10-06T10:52:55.366Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:52:57.795Z INFO cache: evicted 12 keys
+2026-10-06T10:53:00.050Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:53:00.508Z INFO cache: evicted 12 keys
+2026-10-06T10:53:03.767Z INFO cache: replica in sync
+2026-10-06T10:53:06.338Z INFO cache: evicted 12 keys
+2026-10-06T10:53:06.545Z INFO cache: evicted 12 keys
+2026-10-06T10:53:09.952Z INFO cache: evicted 12 keys
+2026-10-06T10:53:22.329Z INFO cache: replica in sync
+2026-10-06T10:53:24.956Z DEBUG cache: replica in sync
+2026-10-06T10:53:30.513Z INFO cache: evicted 12 keys
+2026-10-06T10:53:41.522Z INFO cache: replica in sync
+2026-10-06T10:53:44.032Z INFO cache: replica in sync
+2026-10-06T10:53:45.628Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:53:55.573Z INFO cache: evicted 12 keys
+2026-10-06T10:54:00.074Z INFO cache: replica in sync
+2026-10-06T10:54:01.628Z INFO cache: replica in sync
+2026-10-06T10:54:06.006Z INFO cache: replica in sync
+2026-10-06T10:54:25.870Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:54:26.226Z INFO cache: evicted 12 keys
+2026-10-06T10:54:33.261Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:54:36.522Z INFO cache: replica in sync
+2026-10-06T10:54:48.511Z INFO cache: evicted 12 keys
+2026-10-06T10:54:58.493Z INFO cache: replica in sync
+2026-10-06T10:54:59.054Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:55:10.403Z INFO cache: evicted 12 keys
+2026-10-06T10:55:14.557Z INFO cache: evicted 12 keys
+2026-10-06T10:55:15.713Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:55:32.181Z INFO cache: replica in sync
+2026-10-06T10:55:34.739Z INFO cache: replica in sync
+2026-10-06T10:55:42.284Z INFO cache: replica in sync
+2026-10-06T10:55:43.002Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:56:10.515Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:56:23.721Z INFO cache: replica in sync
+2026-10-06T10:56:26.809Z INFO cache: replica in sync
+2026-10-06T10:56:35.440Z INFO cache: replica in sync
+2026-10-06T10:56:46.815Z INFO cache: evicted 12 keys
+2026-10-06T10:56:48.717Z INFO cache: evicted 12 keys
+2026-10-06T10:56:51.483Z DEBUG cache: replica in sync
+2026-10-06T10:56:56.336Z INFO cache: replica in sync
+2026-10-06T10:57:08.592Z INFO cache: replica in sync
+2026-10-06T10:57:13.736Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:57:22.485Z INFO cache: replica in sync
+2026-10-06T10:57:22.932Z INFO cache: evicted 12 keys
+2026-10-06T10:57:23.596Z INFO cache: evicted 12 keys
+2026-10-06T10:57:45.872Z INFO cache: evicted 12 keys
+2026-10-06T10:57:56.400Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:57:59.059Z INFO cache: replica in sync
+2026-10-06T10:58:03.105Z INFO cache: evicted 12 keys
+2026-10-06T10:58:10.714Z INFO cache: replica in sync
+2026-10-06T10:58:13.770Z INFO cache: evicted 12 keys
+2026-10-06T10:58:19.386Z DEBUG cache: replica in sync
+2026-10-06T10:58:26.862Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:58:27.798Z INFO cache: evicted 12 keys
+2026-10-06T10:58:29.162Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:59:02.672Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:59:06.299Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:59:12.054Z INFO cache: replica in sync
+2026-10-06T10:59:15.247Z INFO cache: replica in sync
+2026-10-06T10:59:16.169Z INFO cache: evicted 12 keys
+2026-10-06T10:59:25.926Z INFO cache: evicted 12 keys
+2026-10-06T10:59:51.053Z INFO cache: cache hit ratio 0.93
+2026-10-06T10:59:58.192Z INFO cache: evicted 12 keys

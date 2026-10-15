@@ -1,0 +1,20 @@
+# docker compose up --build        -> generates a demo incident, then analyzes it
+# Replace the generate step by a bind-mount of real logs:  ./my-logs:/data/logs:ro
+services:
+  generate:
+    build: .
+    image: rca:latest
+    command: ["generate", "/data/logs", "--noise", "50000"]
+    volumes: ["logs:/data"]
+
+  analyze:
+    image: rca:latest
+    depends_on:
+      generate:
+        condition: service_completed_successfully
+    command: ["analyze", "/data/logs", "--workers", "4"]
+    volumes: ["logs:/data"]
+    cpus: 4
+
+volumes:
+  logs:

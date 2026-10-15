@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RCA Live · Root-Cause Log Analyzer</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2f;--panel2:#18223d;--line:#243052;--text:#e8ecf6;--muted:#8b97b5;--accent:#5b8cff;--ok:#34d399;--warn:#fbbf24;--bad:#f87171;--fatal:#c084fc}
+[data-theme=light]{--bg:#f3f5fa;--panel:#fff;--panel2:#eef1f8;--line:#dde2ee;--text:#18203a;--muted:#667194;--accent:#2f61e6;--ok:#059669;--warn:#d97706;--bad:#dc2626;--fatal:#7c3aed}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;padding:10px 20px;background:var(--panel);border-bottom:1px solid var(--line)}
+.logo{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,var(--accent),var(--fatal));display:grid;place-items:center;font-weight:800;color:#fff}
+.brand b{display:block;line-height:1.1}.brand small{color:var(--muted);font-size:11px}
+.sp{flex:1}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 10px;border-radius:99px;border:1px solid var(--line);background:var(--panel2)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--bad)}.live .dot{background:var(--ok);animation:p 1.2s infinite}
+@keyframes p{50%{opacity:.3}}
+button,input{font:inherit;font-size:12px;color:var(--text);background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:6px 12px}
+button{cursor:pointer}button:hover{border-color:var(--accent)}button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+main{max-width:1280px;margin:0 auto;padding:18px 20px 40px;display:grid;gap:14px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
+.kpi small{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em}.kpi b{display:block;font-size:26px;line-height:1.2}
+.cols{display:grid;grid-template-columns:3fr 2fr;gap:14px}@media(max-width:900px){.cols{grid-template-columns:1fr}}
+h3{margin:0 0 10px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em}
+.banner{border-left:5px solid var(--muted);display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.banner.ok{border-color:var(--ok)}.banner.bad{border-color:var(--bad);animation:g 2s infinite}
+@keyframes g{50%{box-shadow:0 0 0 3px color-mix(in srgb,var(--bad) 25%,transparent)}}
+.root{font-size:38px;font-weight:800;color:var(--bad);line-height:1}
+.conf{margin-left:auto;text-align:right}.conf b{font-size:30px}
+.chain{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px}
+.node{padding:3px 12px;border-radius:8px;background:var(--panel2);border:1px solid var(--line);font-weight:600}
+.node.r{border-color:var(--bad);color:var(--bad)}.arr{color:var(--muted)}
+.hm{position:relative;display:grid;gap:4px}
+.hr{display:grid;grid-template-columns:78px 1fr;align-items:center;gap:8px}
+.hr span{font-size:12px;color:var(--muted)}.hr span.r{color:var(--bad);font-weight:700}
+.cells{display:grid;grid-template-columns:repeat(48,1fr);gap:2px}
+.cells i{height:20px;border-radius:3px;background:var(--panel2)}
+.l1{background:color-mix(in srgb,var(--ok) 35%,var(--panel2))!important}.l2{background:var(--warn)!important}.l3{background:var(--bad)!important}.l4{background:var(--fatal)!important}
+.ov{position:absolute;inset:0 0 0 86px;pointer-events:none}.ov u{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--text);text-decoration:none}
+.ax{display:flex;justify-content:space-between;margin:6px 0 0 86px;font-size:11px;color:var(--muted)}
+.cand{padding:10px 0;border-top:1px solid var(--line)}.cand:first-of-type{border-top:0;padding-top:0}
+.row{display:flex;justify-content:space-between}.bar{height:6px;border-radius:4px;background:var(--panel2);margin:6px 0}.bar i{display:block;height:100%;border-radius:4px;background:var(--accent);transition:width .5s}
+.meta{font-size:12px;color:var(--muted)}.sig{display:inline-block;margin:4px 4px 0 0;padding:0 8px;border-radius:6px;background:var(--panel2);font-size:11px;border:1px solid var(--line)}
+code,.log{font:12px/1.6 ui-monospace,Menlo,Consolas,monospace}
+.ev{margin:6px 0 0;padding:8px;background:var(--panel2);border-radius:8px;white-space:pre-wrap;word-break:break-word;font:11.5px/1.5 ui-monospace,Menlo,Consolas,monospace}
+.tools{display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap}.tools input{flex:1;min-width:140px}
+.log{max-height:340px;overflow:auto}
+.ln{display:grid;grid-template-columns:70px 56px 78px 1fr;gap:8px;padding:2px 6px;border-radius:5px}.ln:hover{background:var(--panel2)}
+.ln .t{color:var(--muted)}.sv{font-weight:700}.DEBUG,.INFO{color:var(--muted)}.WARN{color:var(--warn)}.ERROR{color:var(--bad)}.FATAL{color:var(--fatal)}
+.ln.new{animation:n .8s}@keyframes n{from{background:color-mix(in srgb,var(--accent) 30%,transparent)}}
+.rb{height:4px;background:var(--panel2);border-radius:4px;margin-top:6px}.rb i{display:block;height:100%;background:var(--accent);border-radius:4px;transition:width .4s}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">R</div>
+  <div class="brand"><b>RCA Live</b><small>Root-Cause Log Analyzer</small></div>
+  <div class="sp"></div>
+  <span id="conn" class="pill"><i class="dot"></i><span>CONNECTING</span></span>
+  <button id="restart" hidden>↻ Replay incident</button>
+  <button id="export">⬇ Export report</button>
+  <button id="theme">◐ Theme</button>
+</header>
+<main>
+  <div class="kpis">
+    <div class="card kpi"><small>Events analysed</small><b id="k-ev">–</b></div>
+    <div class="card kpi"><small>Log sources</small><b id="k-src">–</b></div>
+    <div class="card kpi"><small>Errors / Warnings</small><b id="k-err">–</b></div>
+    <div class="card kpi"><small>Analysis time</small><b id="k-ms">–</b></div>
+    <div class="card kpi" id="k-rp" hidden><small>Live replay</small><b id="k-pct">–</b><div class="rb"><i id="k-bar" style="width:0"></i></div></div>
+  </div>
+  <section class="card banner" id="banner"></section>
+  <div class="cols">
+    <section class="card"><h3>Incident timeline · worst severity per service</h3><div id="hm"></div></section>
+    <section class="card"><h3>Ranked root-cause candidates</h3><div id="cands"></div></section>
+  </div>
+  <div class="cols">
+    <section class="card"><h3>Live log stream</h3>
+      <div class="tools"><input id="q" placeholder="Filter text or service…">
+        <button data-f="0" class="on">All</button><button data-f="2">Warn+</button><button data-f="3">Error+</button></div>
+      <div class="log" id="log"></div></section>
+    <section class="card"><h3>Matched failure cascades</h3><div id="seqs"></div></section>
+  </div>
+</main>
+<script>
+const $=i=>document.getElementById(i),SEV={DEBUG:0,INFO:1,WARN:2,ERROR:3,FATAL:4};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const clk=s=>s?s.slice(11,19):'';
+const put=(el,h)=>{if(el._h!==h){el._h=h;el.innerHTML=h}};
+let D={},minSev=0,seen=new Set();
+
+function render(d){
+  D=d;
+  $('k-ev').textContent=d.events?.toLocaleString()??'–';
+  $('k-src').textContent=d.sources??'–';
+  $('k-err').textContent=d.status==='ok'?d.errors+' / '+d.warns:'–';
+  $('k-ms').textContent=d.analysis_ms!=null?d.analysis_ms+' ms':'–';
+  const r=d.replay;$('k-rp').hidden=$('restart').hidden=!r;
+  if(r){const p=r.total?Math.round(100*r.emitted/r.total):0;$('k-pct').textContent=p+'%';$('k-bar').style.width=p+'%'}
+
+  const b=$('banner'),top=(d.candidates||[])[0];
+  if(d.status!=='ok'){b.className='card banner';put(b,'<div class="meta">Waiting for log data…</div>')}
+  else if(!d.failure){b.className='card banner ok';put(b,'<div><div style="font-size:22px;font-weight:800;color:var(--ok)">All systems quiet</div><div class="meta">No ERROR / FATAL event yet — watching for new log lines.</div></div>')}
+  else{b.className='card banner bad';
+    put(b,'<div><div class="meta">ROOT CAUSE · failure at '+clk(d.failure.ts)+' UTC</div><div class="root">'+esc(d.root_cause??'?')+'</div>'+
+     '<div class="chain">'+(d.chain||[]).map((s,i,a)=>'<span class="node'+(s===d.root_cause?' r':'')+'">'+esc(s)+'</span>'+(i<a.length-1?'<span class="arr">→</span>':'')).join('')+'</div></div>'+
+     '<div class="meta" style="flex:1;min-width:220px">'+esc(d.failure.service)+': '+esc(d.failure.message)+'</div>'+
+     '<div class="conf"><div class="meta">CONFIDENCE SCORE</div><b>'+(top?Math.round(top.score*100):0)+'%</b></div>')}
+
+  const tl=d.timeline;
+  if(tl){const t0=Date.parse(tl.start),span=Math.max(Date.parse(tl.end)-t0,1);
+    const fp=d.failure?Math.min(100,100*(Date.parse(d.failure.ts)-t0)/span):null;
+    put($('hm'),'<div class="hm">'+Object.entries(tl.rows).map(([s,c])=>'<div class="hr"><span class="'+(s===d.root_cause?'r':'')+'">'+esc(s)+'</span><div class="cells">'+c.map(v=>'<i class="l'+v+'"></i>').join('')+'</div></div>').join('')+
+      (fp!=null?'<div class="ov"><u style="left:'+fp+'%"></u></div>':'')+'</div><div class="ax"><span>'+clk(tl.start)+'</span><span>'+(fp!=null?'│ failure':'')+'</span><span>'+clk(tl.end)+'</span></div>')}
+
+  put($('cands'),(d.candidates||[]).map((c,i)=>'<div class="cand"><div class="row"><b>#'+(i+1)+' '+esc(c.service)+'</b><span>'+c.score.toFixed(2)+'</span></div>'+
+    '<div class="bar"><i style="width:'+Math.min(100,c.score*100)+'%"></i></div><div class="meta">first seen '+clk(c.first_seen)+' · '+c.events+' events · max '+esc(c.max_severity)+'</div>'+
+    c.signatures.map(s=>'<span class="sig">'+esc(s)+'</span>').join('')+'<div class="ev">'+c.evidence.slice(0,3).map(e=>esc(e.slice(11))).join('\n')+'</div></div>').join('')||'<div class="meta">No candidates yet.</div>');
+
+  put($('seqs'),(d.sequences||[]).map(s=>'<div class="cand"><b>'+esc(s.pattern)+'</b><div class="chain">'+s.services.map(x=>'<span class="node">'+esc(x)+'</span>').join('<span class="arr">→</span>')+
+    '</div><div class="meta">'+clk(s.start)+' → '+clk(s.end)+' UTC</div></div>').join('')||'<div class="meta">No cascade matched yet.</div>');
+  log();
+}
+
+function log(){
+  const q=$('q').value.toLowerCase();
+  const rows=(D.tail||[]).filter(e=>SEV[e.sev]>=minSev&&(e.msg+e.svc).toLowerCase().includes(q)).reverse();
+  put($('log'),rows.map(e=>{const k=e.ts+e.svc+e.msg,n=seen.has(k)?'':' new';seen.add(k);
+    return '<div class="ln'+n+'"><span class="t">'+clk(e.ts)+'</span><span class="sv '+e.sev+'">'+e.sev+'</span><span>'+esc(e.svc)+'</span><span>'+esc(e.msg)+'</span></div>'}).join('')||'<div class="meta">No matching lines.</div>');
+}
+
+const conn=ok=>{$('conn').className='pill'+(ok?' live':'');$('conn').lastElementChild.textContent=ok?'LIVE':'RECONNECTING'};
+const es=new EventSource('/events');
+es.onopen=()=>conn(true);es.onerror=()=>conn(false);es.onmessage=e=>{conn(true);render(JSON.parse(e.data))};
+$('q').oninput=log;
+document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{minSev=+b.dataset.f;document.querySelectorAll('[data-f]').forEach(x=>x.classList.toggle('on',x===b));log()});
+$('restart').onclick=()=>fetch('/api/restart',{method:'POST'});
+$('theme').onclick=()=>{const h=document.documentElement;h.dataset.theme=h.dataset.theme==='light'?'dark':'light'};
+$('export').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(D,null,2)],{type:'application/json'}));a.download='rca-report.json';a.click()};
+</script>
+</body>
+</html>

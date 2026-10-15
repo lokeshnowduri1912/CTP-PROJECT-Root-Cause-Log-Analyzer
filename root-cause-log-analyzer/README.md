@@ -1,0 +1,165 @@
+# Root-Cause Log Analyzer
+
+**Student:** Lokesh Harsha Vardhan Nowduri (2601050116) · **Course:** Computational Thinking and Programming
+**Problem:** Correlate events across multiple log sources to identify the root cause of a system failure.
+**Focus techniques:** divide-and-conquer merge of timelines · streaming pattern matching · multiprocessing
+
+```bash
+pip install -e ".[dev]"
+python -m rca generate demo_logs --noise 5000        # synthetic incident, ground truth = db
+python -m rca analyze demo_logs --workers 4          # ranked root cause + causal chain
+python -m rca analyze demo_logs --format json
+pytest                                               # 34 tests, ~96 % coverage
+```
+
+---------------------------------------------------------------------------------------------------
+
+## 1. Workflow (maps to the project-defence rubric)
+
+| Stage | What was done |
+|---|---|
+| Real-world problem | During an outage, SREs read 5+ log files in different formats and clocks by hand. |
+| Decomposition | **Ingest** (parse) → **Normalise** (`LogEvent`) → **Order** (global timeline) → **Detect** (signatures, cascades) → **Correlate** (rank causes) → **Report**. |
+| Abstraction | Every format becomes one immutable `LogEvent(ts, source, service, severity, message)`; services form a dependency graph. |
+| Pattern recognition | Failures follow *cascades* (disk full → connections exhausted → timeouts → circuit open). Root cause = earliest, strongest anomaly that is *upstream* of the failing service. |
+| Algorithms | D&C merge, Aho-Corasick, streaming NFA, binary search, BFS, greedy weighted ranking. |
+| Concurrency | `ProcessPoolExecutor` over newline-aligned byte ranges (CPU-bound → processes, not threads). |
+| Quality | pytest + Hypothesis, coverage gate, mypy `--strict`, ruff lint + format, CI matrix. |
+| DevOps | Multi-stage Dockerfile, docker-compose demo, GitHub Actions. |
+
+## 2. Deployment map
+
+```
+                           ┌──────────────────────── DEVELOPER WORKSTATION ───────────────────────┐
+                           │  VS Code + AI assistant (spec-first prompts, reviewed diffs)          │
+                           │  ruff · mypy --strict · pytest + hypothesis · pre-commit (optional)   │
+                           └───────────────────────────────┬───────────────────────────────────────┘
+                                                           │ git push / PR
+                                                           ▼
+                        ┌───────────────────────── GitHub Actions CI ─────────────────────────┐
+                        │ job quality (py3.11, 3.12): ruff → ruff format → mypy → pytest ≥90% │
+                        │ job container: docker build → generate logs → analyze → grep db     │
+                        └───────────────────────────────┬─────────────────────────────────────┘
+                                                        │ image rca:<sha>  (optional: push to GHCR)
+                                                        ▼
+┌─────────────────────────────────────── RUNTIME (Docker host / VM / K8s Job) ─────────────────────────────────────┐
+│                                                                                                                  │
+│  LOG SOURCES (read-only mount)          rca container  (python:3.12-slim, non-root, 0 third-party deps)           │
+│  ┌──────────────┐                       ┌────────────────────────────────────────────────────────────────────┐   │
+│  │ gateway.log  │──┐                    │  CLI  rca analyze /data/logs --workers N                           │   │
+│  │ orders.jsonl │  │   bind mount       │    │                                                               │   │
+│  │ payments.jsonl──┼──── /data/logs ───►│    ▼                                                               │   │
+│  │ db.log       │  │                    │  plan_tasks(): split files into newline-aligned byte ranges        │   │
+│  │ cache.log    │──┘                    │    │                                                               │   │
+│  └──────────────┘                       │    ▼   STAGE 1  multiprocessing (ProcessPoolExecutor)              │   │
+│   ▲ shippers: rsyslog / Fluent Bit /    │  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐               │   │
+│   │ Filebeat / `docker logs` dumps      │  │ worker 1 │ │ worker 2 │ │ worker 3 │ │ worker N │  parse →      │   │
+│   │ write files to a shared volume      │  └────┬─────┘ └────┬─────┘ └────┬─────┘ └────┬─────┘  Aho-Corasick │   │
+│                                         │       └────────────┴────────────┴────────────┘  tag → sort run    │   │
+│                                         │                         ▼                                          │   │
+│                                         │  STAGE 2  divide-and-conquer merge of sorted runs  O(N log k)      │   │
+│                                         │                         ▼                                          │   │
+│                                         │  STAGE 3  streaming NFA (cascades) + failure window (bisect)       │   │
+│                                         │                         ▼                                          │   │
+│                                         │  STAGE 4  graph-aware ranking → Report (text | JSON)               │   │
+│                                         └─────────────────────────────┬──────────────────────────────────────┘   │
+│                                                                       ▼                                          │
+│                                          stdout → terminal / CI artifact / Slack webhook / incident ticket        │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+Run it in the container:
+
+```bash
+docker build -t rca .
+docker run --rm -v "$PWD/logs:/data/logs:ro" rca analyze /data/logs --workers 4
+docker compose up --build            # generates a demo incident, then analyzes it
+```
+
+## 3. Algorithms and complexity
+
+| Component | Technique | Time | Space |
+|---|---|---|---|
+| Timeline merge (`merge.py`) | **Divide & conquer**: T(k)=2T(k/2)+O(N) | O(N log k) | O(N), depth log k |
+| Lazy alternative | heap k-way merge (`heapq.merge`) | O(N log k) | O(k) |
+| Per-run sort | Timsort on nearly-sorted data | ≈ O(n) expected | O(n) |
+| Signatures (`patterns.py`) | **Aho-Corasick** automaton, one pass | O(\|msg\| + matches) | O(Σ\|keywords\|) |
+| Cascades | **Streaming NFA**, window-expired, capped partials | O(events·patterns·cap) worst, ~O(1) typical | O(patterns·cap) |
+| Failure window | `bisect` on timestamps | O(log N) | O(N) once |
+| Dependency reach | BFS | O(V+E) | O(V) |
+| Ranking | Greedy weighted score + "most-upstream" preference | O(A·(V+E)) , A = anomalous services | O(A) |
+
+Techniques deliberately *not* forced in: dynamic programming, backtracking and branch-and-bound have no natural
+role in this problem (a possible extension is DP alignment of event sequences against known incident templates).
+
+Score = 0.25·earliness + 0.35·signature strength + 0.10·severity + 0.05·depth + 0.25·root-most (no anomalous upstream).
+Weights are named constants in `correlate.py`, so they are explainable and tunable.
+
+## 4. Concurrency choices (CPU-bound vs I/O-bound, GIL)
+
+* Parsing + regex + automaton scanning is **CPU-bound pure Python** → threads would serialise on the **GIL**;
+  `multiprocessing` gives true parallelism.
+* Workers share nothing: each returns an immutable, sorted run; the automaton is built once per worker (`initializer`).
+* `pool.map` preserves task order, so output is deterministic (tests assert serial == parallel).
+* Byte-range splitting is newline-aligned (`iter_range`) and tested to cover every line exactly once.
+* `asyncio` would suit *live tailing of many sockets* (I/O-bound); it is the natural extension, not needed for batch files.
+* The sequence matcher stays serial on purpose: it is order-dependent but runs on the *sparse* stream of tagged events only.
+* Overheads: pickling events back to the parent costs time; processes only win on large inputs (see §6).
+
+## 5. Quality engineering
+
+| Practice | Evidence |
+|---|---|
+| Unit tests | parsers, merge, matcher, correlation |
+| Property-based tests (Hypothesis) | `merge_dc == sorted(concat)`, stability, no input mutation; Aho-Corasick == naive `str.find` oracle |
+| Integration / end-to-end | generated incident → CLI → JSON; serial == parallel; chunked == whole file |
+| Coverage | `--cov-fail-under=90` (currently ≈ 96 %) |
+| Static typing | `mypy --strict` clean, generics in `merge.py` (`TypeVar`, `Callable[[T], Any]`) |
+| Lint / format | `ruff check`, `ruff format` |
+| Design | frozen slotted dataclasses, `IntEnum`, generators (`iter_range`), composition (`SequenceMatcher` uses patterns), pure functions (`analyze`, `merge_*`) |
+
+## 6. Performance evaluation (measured, honest)
+
+`PYTHONPATH=. python benchmarks/bench.py --noise 400000` on the sandbox used to build this project (**1 CPU core**):
+
+| Experiment | Result |
+|---|---|
+| Merge 64 runs × 20k items | `sorted(concat)` 0.18 s · `heapq.merge` 0.57 s · `merge_dc` 1.50 s |
+| Pipeline, 400k lines, workers=1 | 3.7 s |
+| workers = 2 / 4 / 8 | slower (6.5 / 7.3 / 7.9 s) — **expected on 1 core**: process start-up + pickling, no extra cores |
+
+Take-aways to state in the defence:
+1. `sorted()` wins in CPython because Timsort is C and detects existing runs; the pure-Python D&C merge shows the algorithm
+   and is key-function generic, but is not the fastest *in Python*. In a compiled language / with streaming inputs it is the right tool.
+2. Multiprocessing speed-up requires multiple cores. **Re-run the benchmark on your laptop** (4–8 cores) and paste the table here
+   before the demo; expect near-linear gains in the load+scan stage until the parent's merge/unpickle becomes the bottleneck (Amdahl's law).
+
+## 7. AI-assisted development log (fill with your real prompts)
+
+1. **Specification first** – wrote the input/output contract and acceptance test ("generated incident → `db` is #1") before any code.
+2. **Context management** – gave the assistant one module at a time plus the `LogEvent` model, not the whole repo.
+3. **Generation** – assistant drafted parsers, Aho-Corasick, NFA, pipeline.
+4. **Critical review (what to say you checked)**
+   * Aho-Corasick failure links verified against a naive-search oracle with Hypothesis.
+   * Byte-range splitting: first draft risked skipping a line when a boundary fell right after `\n`; fixed by `seek(start-1)` and tested for exactly-once coverage.
+   * Rejected generated code that used threads for parsing (GIL) and a global mutable matcher (not process-safe).
+   * Verified every complexity claim and *measured* instead of trusting the assistant (see §6).
+
+## 8. Live demo script (5 min)
+
+1. `python -m rca generate demo --noise 5000`; show the 5 files and their different formats.
+2. `python -m rca analyze demo --workers 4`; point at the ranked root cause, the decoy `cache` warning that ranks #2, and the matched cascade.
+3. `python -m rca analyze demo --format json | head`.
+4. `pytest` (property tests + coverage), `mypy`, `ruff check .`.
+5. `docker compose up --build`.
+6. Optional: `PYTHONPATH=. python benchmarks/bench.py` on your own multi-core machine.
+
+## 9. Likely defence questions
+
+* **Why D&C and not just `sorted()`?** Inputs are already sorted runs; D&C exploits that (O(N log k) vs O(N log N)) and generalises to streaming/external merge. In CPython `sorted()` is still faster because it is C; I measured that.
+* **Aho-Corasick vs regex alternation?** Single pass independent of the number of keywords; regex backtracking can degrade; automaton is deterministic and testable against an oracle.
+* **Why processes, not threads/asyncio?** CPU-bound parsing, GIL. asyncio for live socket tailing.
+* **Clock skew between hosts?** Not corrected today; extension: estimate per-source offset from correlated request IDs.
+* **Is the ranking a proof of causality?** No — a heuristic that is explainable and tunable; it ranks, and shows evidence.
+* **Memory?** Runs are in-memory (O(N)); `merge_heap` + `iter_range` generators are the streaming path for logs larger than RAM.
+* **Limitations / future work:** DP template alignment, learned weights, live tail with asyncio, trace-ID joins.
